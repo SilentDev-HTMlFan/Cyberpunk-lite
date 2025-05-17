@@ -1,0 +1,77 @@
+:root {
+    --neon-blue: #00f3ff;
+    --dark-bg: #0a0a0a;
+    --disabled-text: #555;
+}
+
+body {
+    background: var(--dark-bg);
+    color: white;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Navigation */
+.cyber-nav {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--neon-blue);
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--neon-blue);
+    text-decoration: none;
+}
+
+/* Hero Section */
+.cyber-hero {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.neon-title {
+    color: var(--neon-blue);
+    font-size: 2.5rem;
+}
+
+.neon-subtitle {
+    color: var(--disabled-text);
+}
+
+/* Project Card */
+.project-card {
+    max-width: 300px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid var(--neon-blue);
+    text-align: center;
+    opacity: 0.7;
+}
+
+/* Pro Teaser */
+.pro-teaser {
+    text-align: center;
+    color: var(--disabled-text);
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    border-top: 1px solid var(--neon-blue);
+    margin-top: 2rem;
+}
+
+footer a {
+    color: var(--neon-blue);
+}
