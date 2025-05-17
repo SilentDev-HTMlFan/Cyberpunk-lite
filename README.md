@@ -1,8 +1,5 @@
 # Cyberpunk-lite
 # Cyberpunk Lite - Free Portfolio Template  
-
-![Preview](preview.jpg)  
-
 A minimalist cyberpunk-themed portfolio template for developers.  
 
 ## Features  
